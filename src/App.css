@@ -92,6 +92,18 @@
   display: flex;
 }
 
+.home-side-bar-text-item {
+  background-color: #252525;
+  color: white;
+  flex-grow: 1;
+  display: flex;
+}
+
+.text-item-side-bar {
+  font-size: 25px;
+  margin: auto;
+}
+
 .img-side-bar {
   overflow: hidden;
   --webkit-filter: blur(3px); /* Chrome, Safari, Opera */

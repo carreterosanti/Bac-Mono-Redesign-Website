@@ -3,24 +3,39 @@ import ReactDOMServer from "react-dom/server";
 import NavOptionsSideBar from "./NavOptionsSideBar";
 
 class HeaderButton extends React.Component {
-  /*   headerButtonHandler = () => {
-    NavOptionsSideBar([1, 2, 3]);
-    const containerMain = document.getElementById("idmainlayout");
-    console.log(document.getElementById("idmainlayout"));
+  state = {
+    colorText: "#FFFFFF"
   };
- */
 
   handlerMouseOver = () => {
-    console.log(this.props);
-    if (this.props.onMouseOverM != undefined) {
-      this.props.onMouseOverM(<h2>Hello</h2>);
+    this.setState({ colorText: "#DE1E00" });
+    if (
+      this.props.sendChangeUp != undefined &&
+      this.props.options != undefined
+    ) {
+      this.props.sendChangeUp(true, this.props.options);
+    }
+  };
+
+  handlerMouseLeave = () => {
+    this.setState({ colorText: "#FFFFFF" });
+    if (
+      this.props.sendChangeUp != undefined &&
+      this.props.options != undefined
+    ) {
+      this.props.sendChangeUp(false, []);
     }
   };
 
   render() {
     return (
       <div>
-        <a className="header-button" onMouseOver={this.handlerMouseOver}>
+        <a
+          style={{ color: this.state.colorText }}
+          className="header-button"
+          onMouseOver={this.handlerMouseOver}
+          onMouseLeave={this.handlerMouseLeave}
+        >
           {this.props.labelButton}
         </a>
       </div>

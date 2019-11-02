@@ -7,24 +7,29 @@ class HandlerConteiner extends React.Component {
     super();
     this.state = {
       tituloMainLaylout: "One of a 1.",
-      h2: ""
+      showOptions: false,
+      options: ""
     };
     this.changeHandler = this.changeHandler.bind(this);
   }
 
-  changeHandler(value) {
-    console.log("Llego al changeHandler de HandlerControler");
-    this.setState({ tituloMainLaylout: "One of a 2.", h2: value });
-    if (value != undefined) {
-      return <h2>Hola</h2>;
-    }
+  changeHandler(value, options) {
+    console.log("Llego al changeHandler de HandlerControler", options, value);
+    this.setState({
+      showOptions: value,
+      options: options
+    });
   }
 
   render() {
     return (
       <div>
         <NavBar onChange={this.changeHandler} />
-        <MainLayout titulo={this.state.tituloMainLaylout} h2={this.state.h2} />
+        <MainLayout
+          titulo={this.state.tituloMainLaylout}
+          showOptions={this.state.showOptions}
+          options={this.state.options}
+        />
       </div>
     );
   }

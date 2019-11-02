@@ -1,6 +1,7 @@
 import React from "react";
 
 export default function HomeSideBarElements(props) {
+  console.log("Items:", props.items);
   const createItems = props.items.map(item => {
     if (item.srcTwitter != undefined) {
       return (
@@ -29,10 +30,9 @@ export default function HomeSideBarElements(props) {
         </div>
       );
     } else if (item.text != undefined) {
-      console.log("Entro al final!");
       return (
-        <div className="home-side-bar-item">
-          <div>{item.text}</div>
+        <div className="home-side-bar-text-item">
+          <div className="text-item-side-bar">{item.text}</div>
         </div>
       );
     }

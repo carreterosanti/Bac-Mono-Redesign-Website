@@ -22,6 +22,12 @@ export default function MainLayout(props) {
     }
   ];
 
+  const SideBar = props.showOptions ? (
+    <HomeSideBarElements items={props.options} />
+  ) : (
+    <HomeSideBarElements items={homeSideBarDefaultElements} />
+  );
+
   return (
     <main id="idmainlayout">
       <div id="id-side-bar" className="main-layout-body full-height-minus-nav">
@@ -29,7 +35,7 @@ export default function MainLayout(props) {
           <div
             style={{ backgroundColor: "red", width: "30%", maxHeight: "100%" }}
           >
-            <HomeSideBarElements items={homeSideBarDefaultElements} />
+            {SideBar}
           </div>
           <ContainerHome titulo={props.titulo} />
         </div>
