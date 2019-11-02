@@ -1,8 +1,10 @@
 ## Bac Mono Redesign Web
 
-[https://carreterosanti.github.io/Bac-Mono-Redesign-Website/]
+https://carreterosanti.github.io/Bac-Mono-Redesign-Website/
 
 ### Version Antigua
+
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
