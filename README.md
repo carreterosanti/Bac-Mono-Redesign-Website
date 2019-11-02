@@ -4,7 +4,7 @@
 
 ### Idea Begind
 
-The objective of this project was to experience some practice developing React and using Flexible Box Module for the layout.
+The objective of this project was to experience some practice developing _React_ and using _Flexible Box Module_ for the layout.
 
 Start by making the navigation bar more simple and expanded, and then trying to avoid the classic carrousel of photos present in all the web sites of car brands, but respecting the information presented in the original version of the web site.
 
