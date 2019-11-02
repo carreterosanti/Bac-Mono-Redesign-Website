@@ -1,41 +1,37 @@
 import React, { Component } from "react";
+import HomeSideBarElements from "./HomeSideBarElements";
+import ContainerHome from "./home-foto-layout/ContainerHome";
 
-export default function MainLayout() {
+export default function MainLayout(props) {
+  const homeSideBarDefaultElements = [
+    {
+      text: "Latest News",
+      srcImg:
+        "http://www.bac-mono.com/images/galleries/17/images/mp_diamond9_-_81.jpg"
+    },
+    {
+      text: "We are hiring!",
+      srcImg:
+        "http://www.bac-mono.com/images/galleries/12/images/speedhunters_3.jpg"
+    },
+    {
+      text: "Follow us on ",
+      srcImg:
+        "http://www.bac-mono.com/images/galleries/1/images/04_darkroom_back.jpg",
+      srcTwitter: "https://img.icons8.com/color/48/000000/twitter.png"
+    }
+  ];
+
   return (
-    <main>
-      <div className="main-layout-body full-height-minus-nav">
-        <div className="div-columna-foto-columna full-height-minus-nav">
-          <div style={{ backgroundColor: "red", width: "30%" }}></div>
+    <main id="idmainlayout">
+      <div id="id-side-bar" className="main-layout-body full-height-minus-nav">
+        <div className="div-columna-foto full-height-minus-nav">
           <div
-            style={{
-              backgroundColor: "white",
-              justifyContent: "center",
-              width: "70%",
-              display: "flex",
-              alignItems: "center"
-            }}
+            style={{ backgroundColor: "red", width: "30%", maxHeight: "100%" }}
           >
-            <div>
-              <h2
-                style={{
-                  textAlign: "center",
-                  fontWeight: 490,
-                  fontSize: "50px",
-                  marginBottom: 0
-                }}
-              >
-                One of a Kind.
-              </h2>
-              <img
-                style={{
-                  maxWidth: "100%",
-                  maxHeigth: "100%"
-                }}
-                src="http://www.bac-mono.com/images/galleries/3/images/03_studio_956x540.jpg"
-                alt="Bac Mono"
-              />
-            </div>
+            <HomeSideBarElements items={homeSideBarDefaultElements} />
           </div>
+          <ContainerHome titulo={props.titulo} />
         </div>
       </div>
     </main>

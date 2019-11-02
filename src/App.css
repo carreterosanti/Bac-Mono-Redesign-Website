@@ -9,9 +9,42 @@
   display: flex;
 }
 
-.div-columna-foto-columna {
+.div-just-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.div-columna-foto {
   display: flex;
   align-content: center;
+}
+
+.crop {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.crop img {
+  width: 100%;
+  height: 100%;
+  margin: -150px -20px -80px 0px;
+}
+
+.div-foto-home {
+  background-color: #f9f9f9;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-bottom-foto-home {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px 80px;
+  margin-top: 25px;
 }
 
 .div-buttons-header {
@@ -32,8 +65,52 @@
 
 .full-height-minus-nav {
   min-height: calc(100vh - 41.6px);
+  max-height: calc(100vh - 41.6px);
 }
 
 .main-layout-body {
   background-color: teal;
+}
+
+.home-side-bar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.home-side-bar-item {
+  background-color: black;
+  position: relative;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  flex-grow: 1;
+  display: flex;
+}
+
+.img-side-bar {
+  overflow: hidden;
+  --webkit-filter: blur(3px); /* Chrome, Safari, Opera */
+  filter: blur(3px);
+}
+
+.text-center-image {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 500;
+  font-size: 30px;
+  min-width: fit-content;
+}
+
+.div-align-horizontal {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
