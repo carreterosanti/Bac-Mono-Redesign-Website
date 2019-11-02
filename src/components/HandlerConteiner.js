@@ -6,7 +6,7 @@ class HandlerConteiner extends React.Component {
   constructor() {
     super();
     this.state = {
-      tituloMainLaylout: "One of a 1.",
+      tituloMainLaylout: "One of a Kind.",
       showOptions: false,
       options: ""
     };

@@ -1,12 +1,10 @@
 ## Bac Mono Redesign Web
 
-https://carreterosanti.github.io/Bac-Mono-Redesign-Website/
+<a text-align="center">https://carreterosanti.github.io/Bac-Mono-Redesign-Website</a>
 
 ### Redesign Website Version
 
-<h3> Redesign Website Version </h3>
-
-![alt Screenshot Redesign Version](https://raw.githubusercontent.com/carreterosanti/Bac-Mono-Redesign-Website/master/readme-images/Redesign-Version-Sitte.PNG)
+<img alt="Screenshot Redesign Version" src="https://raw.githubusercontent.com/carreterosanti/Bac-Mono-Redesign-Website/master/readme-images/Redesign-Version-Sitte.PNG"/>
 
 ### Current Website Version
 
