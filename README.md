@@ -4,17 +4,13 @@ https://carreterosanti.github.io/Bac-Mono-Redesign-Website/
 
 ### Redesign Website Version
 
+<h3> Redesign Website Version </h3>
+
 ![alt Screenshot Redesign Version](https://raw.githubusercontent.com/carreterosanti/Bac-Mono-Redesign-Website/master/readme-images/Redesign-Version-Sitte.PNG)
 
 ### Current Website Version
 
 ![alt Screenshot Current Version](https://raw.githubusercontent.com/carreterosanti/Bac-Mono-Redesign-Website/master/readme-images/Current-Version-Site.PNG)
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
 ### `npm test`
 
