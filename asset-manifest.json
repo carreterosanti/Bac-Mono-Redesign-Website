@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Bac-Mono-Redesign-Website/static/css/main.ea78ffc1.chunk.css",
+    "main.css": "/Bac-Mono-Redesign-Website/static/css/main.0cc5d415.chunk.css",
     "main.js": "/Bac-Mono-Redesign-Website/static/js/main.4f466402.chunk.js",
     "main.js.map": "/Bac-Mono-Redesign-Website/static/js/main.4f466402.chunk.js.map",
     "runtime-main.js": "/Bac-Mono-Redesign-Website/static/js/runtime-main.5b9f0238.js",
@@ -8,14 +8,14 @@
     "static/js/2.2af61d84.chunk.js": "/Bac-Mono-Redesign-Website/static/js/2.2af61d84.chunk.js",
     "static/js/2.2af61d84.chunk.js.map": "/Bac-Mono-Redesign-Website/static/js/2.2af61d84.chunk.js.map",
     "index.html": "/Bac-Mono-Redesign-Website/index.html",
-    "precache-manifest.e4c2140f4e5b4043b46c15d7ec125222.js": "/Bac-Mono-Redesign-Website/precache-manifest.e4c2140f4e5b4043b46c15d7ec125222.js",
+    "precache-manifest.76c84cb73d3c0209bd95f4bfc72231b7.js": "/Bac-Mono-Redesign-Website/precache-manifest.76c84cb73d3c0209bd95f4bfc72231b7.js",
     "service-worker.js": "/Bac-Mono-Redesign-Website/service-worker.js",
-    "static/css/main.ea78ffc1.chunk.css.map": "/Bac-Mono-Redesign-Website/static/css/main.ea78ffc1.chunk.css.map"
+    "static/css/main.0cc5d415.chunk.css.map": "/Bac-Mono-Redesign-Website/static/css/main.0cc5d415.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.5b9f0238.js",
     "static/js/2.2af61d84.chunk.js",
-    "static/css/main.ea78ffc1.chunk.css",
+    "static/css/main.0cc5d415.chunk.css",
     "static/js/main.4f466402.chunk.js"
   ]
 }

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Bac-Mono-Redesign-Website/precache-manifest.e4c2140f4e5b4043b46c15d7ec125222.js"
+  "/Bac-Mono-Redesign-Website/precache-manifest.76c84cb73d3c0209bd95f4bfc72231b7.js"
 );
 
 self.addEventListener('message', (event) => {
