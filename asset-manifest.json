@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/bac-mono-redesign-web/static/css/main.a274f844.chunk.css",
+    "main.js": "/bac-mono-redesign-web/static/js/main.ba1397a6.chunk.js",
+    "main.js.map": "/bac-mono-redesign-web/static/js/main.ba1397a6.chunk.js.map",
+    "runtime-main.js": "/bac-mono-redesign-web/static/js/runtime-main.7faf1133.js",
+    "runtime-main.js.map": "/bac-mono-redesign-web/static/js/runtime-main.7faf1133.js.map",
+    "static/js/2.2af61d84.chunk.js": "/bac-mono-redesign-web/static/js/2.2af61d84.chunk.js",
+    "static/js/2.2af61d84.chunk.js.map": "/bac-mono-redesign-web/static/js/2.2af61d84.chunk.js.map",
+    "index.html": "/bac-mono-redesign-web/index.html",
+    "precache-manifest.ea74a80cd6ad24dbf453a425ab4125d0.js": "/bac-mono-redesign-web/precache-manifest.ea74a80cd6ad24dbf453a425ab4125d0.js",
+    "service-worker.js": "/bac-mono-redesign-web/service-worker.js",
+    "static/css/main.a274f844.chunk.css.map": "/bac-mono-redesign-web/static/css/main.a274f844.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7faf1133.js",
+    "static/js/2.2af61d84.chunk.js",
+    "static/css/main.a274f844.chunk.css",
+    "static/js/main.ba1397a6.chunk.js"
+  ]
+}
