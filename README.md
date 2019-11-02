@@ -8,12 +8,15 @@
 
 ### Current Website Version
 
-![alt Screenshot Current Version](https://raw.githubusercontent.com/carreterosanti/Bac-Mono-Redesign-Website/master/readme-images/Current-Version-Site.PNG)
+<img alt="Screenshot Current Version" src="https://raw.githubusercontent.com/carreterosanti/Bac-Mono-Redesign-Website/master/readme-images/Current-Version-Site.PNG"/>
 
-### `npm test`
+### Idea Begind
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The objective of this project was to experience sombre practice developing React.
+
+Start by making the navigation bar more simple and expanded, and then trying to avoid the classic carrousel of photos present in all the web sites of car brands, but respecting the information presented in the original version of the web site.
+
+###### All the images are property of Bac and were taken through its public url.
 
 ### `npm run build`
 
