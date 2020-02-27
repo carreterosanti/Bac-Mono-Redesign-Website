@@ -6,18 +6,15 @@ export default function MainLayout(props) {
   const homeSideBarDefaultElements = [
     {
       text: "Latest News",
-      srcImg:
-        "http://www.bac-mono.com/images/galleries/17/images/mp_diamond9_-_81.jpg"
+      srcImg: "./home-foto-layout/images/foto-3-bacmono.jpg"
     },
     {
       text: "We are hiring!",
-      srcImg:
-        "http://www.bac-mono.com/images/galleries/12/images/speedhunters_3.jpg"
+      srcImg: "./home-foto-layout/images/foto-2-bacmono.jpg"
     },
     {
       text: "Follow us on ",
-      srcImg:
-        "http://www.bac-mono.com/images/galleries/1/images/04_darkroom_back.jpg",
+      srcImg: "./home-foto-layout/images/foto-4-bacmono.jpg",
       srcTwitter: "https://img.icons8.com/color/48/000000/twitter.png"
     }
   ];

@@ -6,7 +6,11 @@ export default function HomeSideBarElements(props) {
     if (item.srcTwitter != undefined) {
       return (
         <div className="home-side-bar-item">
-          <img className="img-side-bar" src={item.srcImg} alt="Bac Mono" />
+          <img
+            className="img-side-bar"
+            src={require("" + item.srcImg)}
+            alt="Bac Mono"
+          />
           <div className="text-center-image div-align-horizontal">
             {item.text}
             <img
@@ -25,7 +29,11 @@ export default function HomeSideBarElements(props) {
     } else if (item.srcImg != undefined) {
       return (
         <div className="home-side-bar-item">
-          <img className="img-side-bar" src={item.srcImg} alt="Bac Mono" />
+          <img
+            className="img-side-bar"
+            src={require("" + item.srcImg)}
+            alt="Bac Mono"
+          />
           <div className="text-center-image">{item.text}</div>
         </div>
       );

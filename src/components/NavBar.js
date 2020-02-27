@@ -40,7 +40,7 @@ class NavBar extends React.Component {
 
         <img
           style={{ paddingRight: "10px" }}
-          src="http://www.bac-mono.com/img/logo.png"
+          src={require("./home-foto-layout/images/logo.png")}
           alt="Logo Mono"
         />
       </div>

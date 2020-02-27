@@ -16,7 +16,7 @@ export default function ContainerHome(props) {
         <div className="crop">
           <img
             style={{ maxWidth: "100%", maxHeigth: "100%" }}
-            src="http://www.bac-mono.com/images/galleries/3/images/03_studio_956x540.jpg"
+            src={require("./images/foto-1-bacmono.jpg")}
             alt="Bac Mono"
           />
         </div>
